@@ -17,6 +17,17 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      display: flex;
+
+      p {
+        padding-left: 32px;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        opacity: 0.8;
+      }
       a {
         color: #fff;
         text-decoration: none;
